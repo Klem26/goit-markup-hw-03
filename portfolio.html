@@ -14,16 +14,18 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-hader">
-      <nav class="container main-nav">
-        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-        <ul class="site-nav list">
-          <li class="item"><a href="./index.html" class="link">Студия</a></li>
-          <li class="item">
-            <a href="./portfolio.html" class="link current">Портфолио</a>
-          </li>
-          <li class="item"><a href="/" class="link">Контакты</a></li>
-        </ul>
+    <div class="container">
+      <header class="page-hader">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+          <ul class="site-nav list">
+            <li class="item"><a href="./index.html" class="link">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link current">Портфолио</a>
+            </li>
+            <li class="item"><a href="/" class="link">Контакты</a></li>
+          </ul>
+        </nav>
 
         <ul class="header list">
           <li class="item">
@@ -35,8 +37,8 @@
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-    </header>
+      </header>
+    </div>
 
     <!-- Main -->
     <section class="section">
@@ -59,8 +61,7 @@
             <button type="button" class="button secondary">Маркетинг</button>
           </li>
         </ul>
-      </div>
-      <div class="container">
+
         <ul class="our-work list">
           <li class="our-work-element">
             <a href="/">
@@ -70,8 +71,10 @@
                 height="294"
                 alt="Веб-сайт Технокряк"
               />
-              <h2 class="title">Технокряк</h2>
-              <p class="link">Веб-сайт</p>
+              <div class="border">
+                <h2 class="title">Технокряк</h2>
+                <p class="link">Веб-сайт</p>
+              </div>
             </a>
           </li>
           <li class="our-work-element">
@@ -82,8 +85,10 @@
                 height="294"
                 alt="Постер New Orlean vs Golden Star"
               />
-              <h2 class="title">Постер New Orlean vs Golden Star</h2>
-              <p class="link">Дизайн</p>
+              <div class="border">
+                <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                <p class="link">Дизайн</p>
+              </div>
             </a>
           </li>
           <li class="our-work-element">
@@ -94,8 +99,10 @@
                 height="294"
                 alt="Ресторан Seafood"
               />
-              <h2 class="title">Ресторан Seafood</h2>
-              <p class="link">Приложение</p>
+              <div class="border">
+                <h2 class="title">Ресторан Seafood</h2>
+                <p class="link">Приложение</p>
+              </div>
             </a>
           </li>
           <li class="our-work-element">
@@ -106,8 +113,10 @@
                 height="294"
                 alt="Проект Prime"
               />
-              <h2 class="title">Проект Prime</h2>
-              <p class="link">Маркетинг</p>
+              <div class="border">
+                <h2 class="title">Проект Prime</h2>
+                <p class="link">Маркетинг</p>
+              </div>
             </a>
           </li>
 
@@ -119,9 +128,11 @@
                 height="294"
                 alt="Проект Boxes"
               />
-              <h2 class="title">Проект Boxes</h2>
-              <p class="link">Приложение</p></a
-            >
+              <div class="border">
+                <h2 class="title">Проект Boxes</h2>
+                <p class="link">Приложение</p>
+              </div>
+            </a>
           </li>
           <li class="our-work-element">
             <a href="/">
@@ -131,8 +142,10 @@
                 height="294"
                 alt="Inspiration has no Borders"
               />
-              <h2 class="title">Inspiration has no Borders</h2>
-              <p class="link">Веб-сайт</p>
+              <div class="border">
+                <h2 class="title">Inspiration has no Borders</h2>
+                <p class="link">Веб-сайт</p>
+              </div>
             </a>
           </li>
           <li class="our-work-element">
@@ -143,8 +156,10 @@
                 height="294"
                 alt="Издание Limited Edition"
               />
-              <h2 class="title">Издание Limited Edition</h2>
-              <p class="link">Дизайн</p>
+              <div class="border">
+                <h2 class="title">Издание Limited Edition</h2>
+                <p class="link">Дизайн</p>
+              </div>
             </a>
           </li>
           <li class="our-work-element">
@@ -155,8 +170,10 @@
                 height="294"
                 alt="Проект LAB"
               />
-              <h2 class="title">Проект LAB</h2>
-              <p class="link">Маркетинг</p>
+              <div class="border">
+                <h2 class="title">Проект LAB</h2>
+                <p class="link">Маркетинг</p>
+              </div>
             </a>
           </li>
           <li class="our-work-element">
@@ -167,8 +184,10 @@
                 height="294"
                 alt="Growing Business"
               />
-              <h2 class="title">Growing Business</h2>
-              <p class="link">Приложение</p>
+              <div class="border">
+                <h2 class="title">Growing Business</h2>
+                <p class="link">Приложение</p>
+              </div>
             </a>
           </li>
         </ul>
@@ -180,13 +199,13 @@
         <a href="./index.html" class="logo footer"><span>Web</span>Studio</a>
         <address class="address">
           <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
-          <ul class="list">
-            <li>
+          <ul class="address list">
+            <li class="item">
               <a href="mailto:info@example.com" class="link"
                 >info@example.com</a
               >
             </li>
-            <li>
+            <li class="item">
               <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
             </li>
           </ul>
