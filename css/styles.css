@@ -230,9 +230,9 @@ img {
 
 .button.list {
   display: flex;
-  align-items: center;
 
-  margin: 0 0 50px 280px;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .button-element {
